@@ -1,0 +1,22 @@
+/* stie.css */
+.ui-dialog{z-index:10000; font-size:15px;}
+.ui-dialog .ui-dialog-buttonpane{margin-top:0;padding:1px 0.3em}
+.ui-dialog  .ui-dialog-content :first-child{margin-top:0}
+.ui-dialog  .ui-dialog-content :last-child{margin-bottom:0}
+
+.ws-center{position:fixed;left:50%;transform:translate(-50%, 0);}
+.ws-top{position:fixed;top:7px;}
+.ws-button{z-index:10000}
+
+h1 {
+    margin: 1em auto;
+    width: 300px;
+    text-align: center;
+}
+p{margin-bottom:0;}
+ul{padding:0}
+li {line-height: 3; list-style-type: none}
+li > * {display: inline-block; margin-right: 2%; vertical-align: middle}
+li > label {font-weight: bold; text-align: right}
+li > :first-child{width:30%}
+li > :nth-child(2){width:40%}

@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>WebSort - Home</title>
+    <link rel="stylesheet" href="../shared/jquery-ui.css" />
+    <style>
+        label.ui-button {
+            text-align: left;
+            width: 150px;
+        }
+
+        input[type=search] {
+            width: 60%;
+            height: 1.8em;
+            font-size: 1.3em;
+            vertical-align: middle;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        li ul.clearfix {
+            content: "";
+            display: block;
+            clear: both;
+            height: 0;
+            border-bottom: solid 1px gray;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Home</h3>
+    <div id="AvailableSearches"></div>
+    options: (number) entries to search per result sets, (y/n) mix entries from different result sets
+    <br />
+    <input type="search" />
+    <button>Search</button>
+    <ol id="SearchResults"></ol>
+    <script src="../shared/require.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
